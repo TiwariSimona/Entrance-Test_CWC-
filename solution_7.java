@@ -2,8 +2,7 @@ public class solution_7{
 
 	
 	public static void main(String[] args) {
-		int a=3;    
-		int d=5;
+		int a=3,d=5;    
 		int nthterm=78;
 		int i=((78-3)/5)+1;
 		
