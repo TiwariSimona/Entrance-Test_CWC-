@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ques2 {
+public class solution_2 {
 	
 	static void sort_ascending(int a[][]) {
 		for (int i = 0; i < a.length; i++) {
