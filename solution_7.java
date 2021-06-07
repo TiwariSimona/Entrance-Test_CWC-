@@ -1,4 +1,4 @@
-public class Ques7{
+public class solution_7{
 
 	
 	public static void main(String[] args) {
