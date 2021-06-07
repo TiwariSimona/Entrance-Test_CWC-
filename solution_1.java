@@ -1,28 +1,28 @@
 import java.util.HashMap;
 
-public class Ques1 {
+public class solution_1 {
 
-	static int min_swap_count(int array[]) {
-		boolean isVisited[]=new boolean[array.length+1];
-		HashMap<Integer, Integer> h=new HashMap<>();
+	static int min_swap_count(int arr[]) {
+		boolean visited[]=new boolean[arr.length+1];
+		HashMap<Integer, Integer> hshmp=new HashMap<>();
 		
-		for (int i =1; i < isVisited.length; i++) {
-			h.put(i,array[i-1]);
+		for (int i =1; i < visited.length; i++) {
+			h.put(i,arr[i-1]);
 		}
 		int swapcount=0;
 		
-		for (int i =1; i <=h.size(); i++) {
-			if (isVisited[i]==false) {
-				isVisited[i]=true;
+		for (int i =1; i <=hshmp.size(); i++) {
+			if (visited[i]==false) {
+				visited[i]=true;
 				
-				if (i==h.get(i)) {
+				if (i==hshmp.get(i)) {
 					continue;
 				}
 				else {
-					int c=h.get(i);
-					while(!isVisited[c]) {
-				     isVisited[c]=true;
-				     int next=h.get(c);
+					int c=hshmp.get(i);
+					while(!visited[c]) {
+				     visited[c]=true;
+				     int next=hshmp.get(c);
 				     c=next;
 				     swapcount++;
 				     
@@ -35,8 +35,8 @@ public class Ques1 {
 	
 	public static void main(String[] args) {
 		
-		int array[]= {3,4,1,2};
-		System.out.println("the minimum number of swap require to sort the array is: "+min_swap_count(array));
+		int arr[]= {3,4,1,2};
+		System.out.println("the minimum number of swap require to sort the array is: "+min_swap_count(arr));
 
 	}
 
