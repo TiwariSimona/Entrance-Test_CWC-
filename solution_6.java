@@ -1,19 +1,19 @@
 import java.util.Scanner;
-public class Ques6 {
+public class solution_6 {
    public static void main(String args[]) {
-	   Scanner sc= new Scanner(System.in);
+	   Scanner in= new Scanner(System.in);
 	   
 	   
-	   System.out.println("Enter the first number");
-      int n_1 = sc.nextInt();
+	   System.out.println("Enter the 1st number");
+      int n_1 = in.nextInt();
       
       
-      System.out.println("Enter the second number");
-      int n_2 = sc.nextInt();
+      System.out.println("Enter the 2nd number");
+      int n_2 = in.nextInt();
       
       
-      System.out.println("Enter the third number");
-      int n_3 = sc.nextInt();
+      System.out.println("Enter the 3rd number");
+      int n_3 = in.nextInt();
       
       
       if (n_1 >= n_2 && n_1 >= n_3)
