@@ -1,19 +1,19 @@
 import java.util.Scanner;
-public class Ques9
+public class solution_9
 {
   public static void main(String args[])
   {
-    Scanner sc = new Scanner(System.in);
-    String string;
-    String reverse = "";
+    Scanner in = new Scanner(System.in);
+    String string_original;
+    String string_reverse = "";
 
     System.out.println("Enter a string to reverse");
-    string = sc.nextLine();
+    string_original = in.nextLine();
 
-    for(int i = string.length()-1; i >= 0; i--){    
-        reverse = reverse + string.charAt(i);    
+    for(int i = string_original.length()-1; i >= 0; i--){    
+        string_reverse = string_reverse + string_original.charAt(i);    
     }    
 
-    System.out.println("Reverse of the string: " + reverse);
+    System.out.println("Reverse of the string: " + string_reverse);
   }
 }
