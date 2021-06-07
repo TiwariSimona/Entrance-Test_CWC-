@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Ques8 {
+public class solution_8 {
 	
  public static void main(String[] args) {
- float x =-7/5;
+ float y =-7/5;
 
-  System.out.printf("The value is " + x);
+  System.out.printf("The value is " + y);
  }
 }
