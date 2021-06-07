@@ -1,10 +1,10 @@
 import java.util.Scanner;
-public class Ques3 {
+public class solution_3 {
 
 	public static void main(String[] args) {
-		Scanner sc= new Scanner(System.in);
+		Scanner in= new Scanner(System.in);
 		System.out.println("Enter the value of n");
-		int n=sc.nextInt();
+		int n=in.nextInt();
 		  int a = 0, b = 1, c = 1, d = 2, i;
 		  int e=0;
 		  System.out.print(a + " " + b + " " + c+" "+d);
